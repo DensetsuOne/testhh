@@ -1,7 +1,7 @@
 <?php 
 $filename = 'image/2.jpg';
 $width = 200;
-$height = 200;
+$height = 100;
 header('Content-Type: image/jpg');
 list($width_orig, $height_orig) = getimagesize($filename);
 

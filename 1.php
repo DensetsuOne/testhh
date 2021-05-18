@@ -22,3 +22,4 @@ $b = array_slice($b , 0 , count($b) - 2);
 array_push($b , $str2, $str1);
 $b = implode(' ', $b);
 echo $b;
+// в решении этой задачи проблем не обнаружено 
